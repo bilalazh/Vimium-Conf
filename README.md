@@ -1,6 +1,7 @@
 # Vimium Configuration
 
 This repository contains my personal configuration files for the [Vimium Chrome extension](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb).
+It also supports [Vimium-FF for Firefox](https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/).
 
 ## Files
 
