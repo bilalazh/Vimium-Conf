@@ -1,12 +1,27 @@
 # Vimium Configuration
 
-This repository contains my personal configuration files for the [Vimium Chrome extension](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb).
-It also supports [Vimium-FF for Firefox](https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/).
+This repository contains personal configuration files for the [Vimium Chrome extension](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb) and [Vimium for Firefox](https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/).
 
-## Files
+## Configuration Files
 
-- `custom.css`: Contains custom CSS rules to style Vimium's UI elements (e.g., hints, HUD).
-- `config.json`: Stores custom key mappings, search engines, and other advanced settings.
+Vimium offers powerful customization options primarily through two dedicated files:
+
+### `custom.css`
+
+This CSS file empowers you to visually tailor Vimium's interface elements. Key areas you can customize include:
+
+*   **Hint Markers**: Adjust colors, font sizes, backgrounds, and more for the clickable hints.
+*   **Heads-Up Display (HUD)**: Style the command line, status messages, and other overlays.
+*   **Find Mode**: Modify the appearance of the search bar and highlighted text.
+
+### `config.json`
+
+This JSON file provides advanced control over Vimium's behavior and functionality. It allows you to configure:
+
+*   **Key Mappings**: Remap default commands or define entirely new keyboard shortcuts.
+*   **Search Engines**: Set up custom search providers for quick access via the omnibar.
+*   **Blacklist/Whitelist**: Control Vimium's activation on specific URLs or domains.
+*   **General Settings**: Fine-tune various other preferences and operational aspects.
 
 ## How to Use
 
