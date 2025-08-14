@@ -25,14 +25,14 @@ This JSON file provides advanced control over Vimium's behavior and functionalit
 
 ## How to Use
 
-Follow these steps to apply your custom Vimium configuration:
+To apply your custom Vimium configuration, follow these steps:
 
-1.  **Install Vimium**: First, ensure you have the Vimium extension installed from your browser's respective store (Chrome Web Store or Firefox Add-ons).
+1.  **Install Vimium**: Ensure the Vimium extension is installed from your browser's respective store.
 2.  **Access Options**: Right-click the Vimium icon in your browser toolbar and select 'Options'.
 3.  **Import Configuration**:
-    *   **Custom CSS**: Navigate to the 'Advanced' tab. Locate the 'Custom CSS' textarea and paste the entire content of your `custom.css` file into it.
-    *   **JSON Settings**: In the same 'Advanced' tab, scroll down to the 'Import/Export Settings' section. Paste the entire content of your `config.json` file into the provided import textarea.
-4.  **Save Changes**: After pasting the content, click the 'Save Changes' button at the bottom of the options page to apply your new configuration.
+    *   **Custom CSS**: In the 'Advanced' tab, paste the content of `custom.css` into the 'Custom CSS' textarea.
+    *   **JSON Settings**: In the 'Advanced' tab, locate the 'Import/Export Settings' section and paste the content of `config.json` into the provided textarea.
+4.  **Save Changes**: Click 'Save Changes' at the bottom of the options page to apply your new configuration.
 
 ## Screenshots
 
