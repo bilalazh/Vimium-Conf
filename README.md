@@ -43,3 +43,7 @@ To apply your custom Vimium configuration, follow these steps:
 ### / Search
 
 (Add command line screenshots here)
+
+## Special Thanks
+
+(Add your special thanks here)
