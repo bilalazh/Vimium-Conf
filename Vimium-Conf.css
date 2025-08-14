@@ -1,0 +1,357 @@
+/*
+Dracula theme for Vimium
+by Trollwut (trollwut@trollwut.org). This code is in the public domain.
+To use:
+  1. Copy the code.
+  2. Go to the Vimium options.
+  3. Click Show Advanced Options.
+  4. Under Advanced Options, scroll down to CSS for link hints.
+  5. Paste the code in the text field.
+  6. Click Save Changes.
+  7. Go to the website of your choice (or, if you have it open already, reload it) and check out the results.
+*/
+
+
+
+
+
+
+:root
+
+{
+/* 0 is for darkest
+1 is for hard
+higher values for hard  */
+
+
+/* 2.1 Dark theme color variables */
+--bg0-dh:       #1d2021;
+--bg-dark-new  :  #1F1E1D ;
+/*For basic text new color added         */
+--text-normal :#ffd29c ;
+
+--shadow-bg:         #1d1b1a;
+
+--bg1-dark:       #3c3836;
+--bg-dark:        #282828;
+--bg2-dark:       #504945;
+--bg3-dark:       #665c54;
+--bg4-dark:       #7c6f64;
+--bg5-dark:       #928374;
+--bg_visual:      #503946;
+--bg_red:         #cc241d;
+--bg_green:       #98971a;
+--bg_blue:        #458588;
+--bg_yellow:      #d79921;
+--shadow:         #16181a;
+--shadow-var1:         #17191b;
+--shadow-cur:         #1a1b1d;
+
+--fg-dark:        #ebdbb2;
+--grey0-dark:     #7f897d;
+--grey1-dark:     #859289;
+--grey2-dark:     #9aa79d;
+
+--faded-red:     #fb4934;
+--faded-orange:  #fe8019;
+--faded-yellow:  #fabd2f;
+--faded-green:   #b8bb26;
+--faded-aqua:    #8ec07c;
+--faded-blue:    #83a598;
+--faded-purple:  #d3869b;
+
+--dim-red:       #cc241d;
+--dim-orange:    #d65d0e;
+--dim-yellow:    #d79921;
+--dim-green:     #98971a;
+--dim-aqua:      #689d6a;
+--dim-blue:      #458588;
+--dim-purple:    #b16286;
+
+
+/* 2.2 Light theme color variables */
+--bg0-light:     #f0edd8;
+--bg1-light:     #f6f1dd;
+--bg-light:      #fdf6e3;
+--bg2-light:     #f3efda;
+--bg3-light:     #edead5;
+--bg4-light:     #e4e1cd;
+--bg5-light:     #dfdbc8;
+--grey0-light:   #a4ad9e;
+--grey1-light:   #939f91;
+--grey2-light:   #879686;
+--shadow-light:  #3c474d20;
+
+
+--text-offwhite: #fbf1c7;
+--text-offyellowish: #f2e5bc;
+--text-white: #f9f5d7;
+--text-offwhite-faded: #ebdbb2;
+--text--faded: #d5c4a1;
+--text--veryfade: #928374;
+
+
+
+
+
+
+
+--bg_visual_light:      #eaedc8;
+--bg_red_light:         #fbe3da;
+--bg_green_light:       #f0f1d2;
+--bg_blue_light:        #e9f0e9;
+--bg_yellow_light:      #faedcd;
+
+--fg-light:       #5c6a72;
+
+--light-red:     #f85552;
+--light-orange:  #f57d26;
+--light-yellow:  #bf983d;
+--light-green:   #899c40;
+--light-aqua:    #569d79;
+--light-blue:    #5a93a2;
+--light-purple:  #b87b9d;
+
+--light-dim-red:    #f1706f;
+--light-dim-orange: #f39459;
+--light-dim-yellow: #e4b649;
+--light-dim-green:  #a4bb4a;
+--light-dim-aqua:   #6ec398;
+--light-dim-blue:   #6cb3c6;
+--light-dim-purple: #e092be;
+
+
+
+--dark-red: #9d0006;
+--dark-green: #79740e;
+--dark-yellow: #b57614;
+--dark-blue: #076678;
+--dark-purple: #8f3f71;
+--dark-aqua: #427b58;
+--dark-orange: #af3a03;
+
+
+/* light colors */
+--interface-light0-hard: #f9f5d7;
+--interface-light0: #fbf1c7;
+--interface-light0-soft: #f2e5bc;
+--interface-light1: #ebdbb2;
+--interface-light2: #d5c4a1;
+--interface-light3: #bdae93;
+--interface-light4: #a89988;
+
+
+
+
+
+  }
+
+
+/* Link hint boxes */
+div > .vimiumHintMarker {
+    background: #fbf1c7;
+    font-size: 12px;
+    border: 0.12em solid #fb4934;
+    padding:1px 4px ; 
+    border-radius: 12px;
+  }
+
+
+  /* Link hint text */
+  div > .vimiumHintMarker span {
+    /* Hint font color */
+	color: #fb4934;
+	font-family: "Geist Mono";
+    font-size: 12px;
+	font-weight: bold !important;
+  }
+  
+  /* Link hint matching characters */
+  div > .vimiumHintMarker > .matchingCharacter {
+    color: #3c3836;
+	font-weight: 400 !important;
+  }
+  
+  /* HUD ("heads-up display") bar */
+  div.vimiumHUD {
+    background: #fbf1c7;
+    border: 3px solid #79740e;
+  }
+  
+  div.vimiumHUD .vimiumHUDSearchArea {
+    background: #fbf1c7;
+  }
+  
+  div.vimiumHUD .hud-find {
+    background: #fbf1c7;
+    border: none;
+    color: #fb4934;
+  }
+  
+  div.vimiumHUD span#hud-find-input{
+    color: #fb4934;  /* 'Foreground' color */
+  }
+  
+  div.vimiumHUD span#hud-match-count {
+    color: #fb4934 !important;  /* 'Comment' color */
+  }
+  
+  div.vimiumHUD .vimiumHUDSearchAreaInner {
+    color: #fbf1c7;  /* 'Comment' color */
+  }
+  
+  #vomnibar{
+      background-color: #282828;
+  }
+  
+  #vomnibar input {
+    color: #f2e5bc;
+    font: -moz-window;
+	font-family: "Geist Mono";
+	font-weight: 800 !important;
+    font-size: 20px;
+    height: 34px;
+    margin-bottom: 0;
+    padding: 4px;
+    background-color: #282828;
+    border-radius: 3px;
+    border: 1px solid #fb4934;
+    box-shadow: #282828 0px 0px 1px;
+    width: 100%;
+    outline: none;
+    box-sizing: border-box;
+  }
+
+  /* this is for the sources results */
+  span.title{
+	font-family: "Geist Mono";
+	font-weight: 600 !important;
+	color:#282828 !important; 
+  }
+
+  /* For the matched titles */
+  span.match{
+	font-family: "Geist Mono";
+	font-weight: 600 !important;
+	color:#fb4934 !important; 
+  }
+
+span.url {
+	color: #9d0006 !important;
+	font-family: 'Geist Mono';
+	font-size : 12px !important;
+	font-weight : 600  !important; 
+
+}
+
+span.source{
+	color: #79740e !important;
+	font-family: 'Geist Mono';
+	font-size : 14px !important;
+	font-weight : 900  !important;
+}
+  
+  #vomnibar .vomnibarSearchArea {
+    display: block;
+    padding: 10px;
+    background-color: #fbf1c7;
+    border-radius: 4px 4px 0 0;
+    border-bottom: 0px solid #fb4934;
+  }
+  
+  #vomnibar ul {
+    background-color: #fbf1c7;
+    border-radius: 0 0 4px 4px;
+    list-style: none;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-block-start: 2px;
+    margin-block-end: 0px;
+  }
+  
+  #vomnibar li {
+    border-bottom: 1px solid #79740e;
+    line-height: 1.1em;
+    padding: 7px 10px;
+    font-size: 16px;
+    color: #282828;
+    position: relative;
+    display: list-item;
+    margin: auto;
+  }
+  
+  #vomnibar li .vomnibarBottomHalf {
+    font-size: 15px;
+    margin-top: 3px;
+    padding: 2px 0;
+  }
+  
+  #vomnibar li .vomnibarSource {
+    color: #fb4934;
+    margin-right: 4px;
+  }
+  #vomnibar li .vomnibarRelevancy {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 5px;
+    background-color: #a89988;
+    color: #282828;
+    font-family: monospace;
+    width: 100px;
+    overflow: hidden;
+  }
+  
+  #vomnibar li .vomnibarUrl {
+    white-space: nowrap;
+    color: #fb4934;
+  }
+  
+  #vomnibar li .vomnibarMatch {
+    font-weight: bold;
+    color: #b8bb26;
+  }
+  
+  #vomnibar li em, #vomnibar li .vomnibarTitle {
+    color: #fbf1c7;
+    margin-left: 4px;
+    font-weight: normal;
+  }
+  #vomnibar li em { font-style: italic; }
+  #vomnibar li em .vomnibarMatch, #vomnibar li .vomnibarTitle .vomnibarMatch {
+    color: #98971a;
+  }
+  
+  #vomnibar li.vomnibarSelected {
+    background-color: #ebdbb2;
+    font-weight: normal;
+  }
+  
+  #vomnibarInput::selection {
+    background-color: #458588;
+}
+
+
+#hud-container{
+	background:#fbf1c7 !important ; 
+	
+	}
+	
+	.vimium-ui-component-visible{
+	font-family:"Geist Mono" ; 
+	color:#79740e; 
+	font-weight:bold !important; 
+	} 
+
+	/* How many Matches were find using / search  */
+	span#hud-match-count{
+		color:#fb4934 ; 
+		font-family: 'Geist Mono';
+		font-weight: 900 !important;
+	}
+
+	span#hud-find-input{
+		color: #fb4934 !important;  
+		font-family: 'Geist Mono'; 
+		font-weight: 900 !important ;
+	}
