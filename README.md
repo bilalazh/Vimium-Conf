@@ -4,24 +4,24 @@ This repository contains personal configuration files for the [Vimium Chrome ext
 
 ## Configuration Files
 
-Vimium offers powerful customization options primarily through two dedicated files:
+Vimium offers powerful customization through two dedicated files:
 
 ### `custom.css`
 
-This CSS file empowers you to visually tailor Vimium's interface elements. Key areas you can customize include:
+This CSS file allows you to visually tailor Vimium's interface elements, such as:
 
-*   **Hint Markers**: Adjust colors, font sizes, backgrounds, and more for the clickable hints.
-*   **Heads-Up Display (HUD)**: Style the command line, status messages, and other overlays.
-*   **Find Mode**: Modify the appearance of the search bar and highlighted text.
+*   **Hint Markers**: Customize colors, fonts, and backgrounds.
+*   **Heads-Up Display (HUD)**: Style the command line and overlays.
+*   **Find Mode**: Modify the appearance of the search bar.
 
 ### `config.json`
 
-This JSON file provides advanced control over Vimium's behavior and functionality. It allows you to configure:
+This JSON file provides advanced control over Vimium's behavior and functionality, allowing you to configure:
 
-*   **Key Mappings**: Remap default commands or define entirely new keyboard shortcuts.
-*   **Search Engines**: Set up custom search providers for quick access via the omnibar.
-*   **Blacklist/Whitelist**: Control Vimium's activation on specific URLs or domains.
-*   **General Settings**: Fine-tune various other preferences and operational aspects.
+*   **Key Mappings**: Remap commands or define new shortcuts.
+*   **Search Engines**: Set up custom search providers.
+*   **Blacklist/Whitelist**: Control Vimium's activation on specific URLs.
+*   **General Settings**: Fine-tune various preferences.
 
 ## How to Use
 
